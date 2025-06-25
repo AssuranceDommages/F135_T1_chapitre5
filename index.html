@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Assurance de Dommages</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+            color: #333;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: rgba(255, 255, 255, 0.95);
+            border-radius: 20px;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            backdrop-filter: blur(10px);
+        }
+
+        .header {
+            background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+
+        .header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+        }
+
+        .header p {
+            font-size: 1.1em;
+            opacity: 0.9;
+        }
+
+        .quiz-content {
+            padding: 40px;
+        }
+
+        .question-card {
+            background: white;
+            border-radius: 15px;
+            padding: 30px;
+            margin-bottom: 20px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            border-left: 5px solid #4facfe;
+            transition: all 0.3s ease;
+        }
+
+        .question-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
+        }
+
+        .question-number {
+            background: linear-gradient(135deg, #4facfe, #00f2fe);
+            color: white;
+            padding: 8px 16px;
+            border-radius: 20px;
+            display: inline-block;
+            font-weight: bold;
+            margin-bottom: 15px;
+            font-size: 0.9em;
+        }
+
+        .question-text {
+            font-size: 1.2em;
+            line-height: 1.6;
+            margin-bottom: 20px;
+            color: #2d3748;
+        }
+
+        .answer-section {
+            margin-top: 20px;
+        }
+
+        .show-answer-btn {
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            color: white;
+            border: none;
+            padding: 12px 25px;
+            border-radius: 25px;
+            cursor: pointer;
+            font-size: 1em;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        .show-answer-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+        }
+
+        .answer {
+            background: linear-gradient(135deg, #f8f9ff, #e8f4fd);
+            padding: 20px;
+            border-radius: 10px;
+            margin-top: 15px;
+            border-left: 4px solid #4facfe;
+            display: none;
+            animation: slideIn 0.5s ease;
+        }
+
+        .answer.show {
+            display: block;
+        }
+
+        @keyframes slideIn {
+            from {
+                opacity: 0;
+                transform: translateY(-10px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .answer-text {
+            color: #2d3748;
+            font-size: 1.1em;
+            line-height: 1.5;
+        }
+
+        .controls {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .control-btn {
+            background: linear-gradient(135deg, #ff6b6b, #ee5a24);
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            margin: 0 10px;
+            border-radius: 25px;
+            cursor: pointer;
+            font-size: 1.1em;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        .control-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+        }
+
+        .progress {
+            background: #e2e8f0;
+            height: 8px;
+            border-radius: 4px;
+            margin: 20px 0;
+            overflow: hidden;
+        }
+
+        .progress-bar {
+            background: linear-gradient(135deg, #4facfe, #00f2fe);
+            height: 100%;
+            border-radius: 4px;
+            transition: width 0.3s ease;
+        }
+
+        .stats {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: #f7fafc;
+            padding: 15px 25px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+
+        .stat-item {
+            text-align: center;
+        }
+
+        .stat-number {
+            font-size: 1.5em;
+            font-weight: bold;
+            color: #4facfe;
+        }
+
+        .stat-label {
+            font-size: 0.9em;
+            color: #718096;
+            margin-top: 5px;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                margin: 10px;
+                border-radius: 15px;
+            }
+            
+            .header {
+                padding: 20px;
+            }
+            
+            .header h1 {
+                font-size: 2em;
+            }
+            
+            .quiz-content {
+                padding: 20px;
+            }
+            
+            .question-card {
+                padding: 20px;
+            }
+            
+            .stats {
+                flex-direction: column;
+                gap: 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🎯 Quiz Assurance de Dommages</h1>
+            <p>Chapitre 5 - Questions et réponses par Stéphane Dextras</p>
+        </div>
+        
+        <div class="quiz-content">
+            <div class="controls">
+                <button class="control-btn" onclick="shuffleQuestions()">🔄 Mélanger les questions</button>
+                <button class="control-btn" onclick="hideAllAnswers()">📝 Masquer toutes les réponses</button>
+            </div>
+            
+            <div class="stats">
+                <div class="stat-item">
+                    <div class="stat-number" id="totalQuestions">50</div>
+                    <div class="stat-label">Questions totales</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number" id="answeredCount">0</div>
+                    <div class="stat-label">Réponses vues</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number" id="progressPercent">0%</div>
+                    <div class="stat-label">Progression</div>
+                </div>
+            </div>
+            
+            <div class="progress">
+                <div class="progress-bar" id="progressBar" style="width: 0%"></div>
+            </div>
+            
+            <div id="questionsContainer"></div>
+        </div>
+    </div>
+
+    <script>
+        const questions = [
+            {
+                question: "Quels sont les trois types de représentants en assurance de dommages ?",
+                answer: "Agents, courtiers, experts en sinistre."
+            },
+            {
+                question: "Quelle loi régit les représentants en assurance de dommages ?",
+                answer: "La Loi sur la distribution de produits et services financiers (LDPSF)."
+            },
+            {
+                question: "À partir de quelle date le courtier hypothécaire est-il inclus dans la liste des représentants visés par la LDPSF ?",
+                answer: "À partir du 1er mai 2020."
+            },
+            {
+                question: "Quelles sont les catégories autorisées pour un agent en assurance de dommages ?",
+                answer: "Assurance de dommages des particuliers et assurance de dommages des entreprises."
+            },
+            {
+                question: "Quels types de biens sont couverts par l'assurance de dommages des particuliers ?",
+                answer: "Biens et responsabilité civile de nature domestique, immeubles d'habitation de six logements ou moins."
+            },
+            {
+                question: "Quelle est la différence entre un agent en assurance de dommages des particuliers et un agent en assurance de dommages des entreprises ?",
+                answer: "L'agent des entreprises offre des produits et services-conseils en assurance visant les entreprises."
+            },
+            {
+                question: "Quelles sont les catégories autorisées pour un courtier en assurance de dommages ?",
+                answer: "Assurance de dommages des particuliers et assurance de dommages des entreprises."
+            },
+            {
+                question: "Quelle est la principale différence entre un agent et un courtier en assurance de dommages ?",
+                answer: "L'agent agit pour un seul assureur, le courtier offre les produits de plusieurs assureurs."
+            },
+            {
+                question: "Quelles sont les fonctions principales d'un expert en sinistre ?",
+                answer: "Enquêter sur un sinistre, estimer les dommages, négocier le règlement."
+            },
+            {
+                question: "Quelles catégories d'expertise en règlement de sinistres sont autorisées ?",
+                answer: "Expertise en règlement de sinistres des particuliers et des entreprises."
+            },
+            {
+                question: "Quelles sont les conditions pour obtenir un certificat de représentant ?",
+                answer: "Formation minimale, examens, période probatoire, demande conforme, paiement des droits exigibles."
+            },
+            {
+                question: "Quelles exemptions sont prévues pour une personne revenant à la carrière après une période d'arrêt ?",
+                answer: "Formation minimale, examens, période probatoire (selon la durée de l'arrêt)."
+            },
+            {
+                question: "Quelle est la durée de validité d'un certificat de représentant ?",
+                answer: "Un an, renouvelable annuellement."
+            },
+            {
+                question: "Quels sont les trois modes d'exercice possibles pour un représentant ?",
+                answer: "Agir pour un cabinet, être employé d'une société autonome, être inscrit comme représentant autonome."
+            },
+            {
+                question: "Quelles sont les conditions d'inscription pour un cabinet ?",
+                answer: "Demande écrite, désignation d'un correspondant, assurance de responsabilité professionnelle."
+            },
+            {
+                question: "Quelles sont les obligations d'un cabinet en matière d'assurance de responsabilité professionnelle ?",
+                answer: "Couvrir ses fautes et celles de ses employés, démontrer la solvabilité des administrateurs."
+            },
+            {
+                question: "Quelles sont les conditions d'inscription pour un représentant autonome ?",
+                answer: "Être titulaire d'un certificat, transmettre les documents requis, mentionner une adresse au Québec."
+            },
+            {
+                question: "Quelle est la durée de validité d'une inscription ?",
+                answer: "Jusqu'à sa radiation."
+            },
+            {
+                question: "Quelles sont les activités possibles pour un cabinet multidisciplinaire ?",
+                answer: "Offrir des produits et services dans plusieurs disciplines."
+            },
+            {
+                question: "Quels titres peuvent être utilisés par un cabinet inscrit dans plusieurs disciplines ?",
+                answer: "Cabinet de services financiers."
+            },
+            {
+                question: "Quelles sont les obligations générales d'un représentant envers ses clients ?",
+                answer: "Agir avec honnêteté, loyauté, compétence et professionnalisme."
+            },
+            {
+                question: "Quels types de professions sont incompatibles avec l'activité de représentant ?",
+                answer: "Juge, policier, ministre du culte, directeur de funérailles, syndic de faillite, professions de la santé, avocat, notaire, comptable public, courtier immobilier."
+            },
+            {
+                question: "Quelles informations doivent être incluses dans une carte professionnelle remise au client ?",
+                answer: "Nom, adresse professionnelle, numéro de téléphone, titre autorisé."
+            },
+            {
+                question: "Quelles sont les règles concernant la publicité d'un représentant ?",
+                answer: "Utiliser son nom et son titre, ne pas induire en erreur, ne pas critiquer les concurrents."
+            },
+            {
+                question: "Quels sont les éléments obligatoires à inclure dans un dossier client ?",
+                answer: "Nom du client, montant et nature de la couverture, numéro de police, mode de paiement, liste d'évaluation des biens."
+            },
+            {
+                question: "Quelle est la durée de conservation des livres et des registres ?",
+                answer: "Cinq ans à compter de leur fermeture."
+            },
+            {
+                question: "Quelles sont les règles concernant la destruction des documents contenant des renseignements personnels ?",
+                answer: "Respecter le caractère confidentiel des renseignements personnels."
+            },
+            {
+                question: "Quelles informations doivent figurer dans le registre des commissions ?",
+                answer: "Nom des copartageants, adresse professionnelle, pourcentage ou montant fixe de la commission."
+            },
+            {
+                question: "Qu'est-ce qu'un mandat ?",
+                answer: "Contrat par lequel le mandant donne au mandataire le pouvoir de le représenter."
+            },
+            {
+                question: "Quelle est la différence entre un mandat spécifique et un mandat général ?",
+                answer: "Spécifique : pour un acte précis ; général : pour un ensemble d'actes."
+            },
+            {
+                question: "Quelles sont les obligations du mandataire envers le mandant ?",
+                answer: "Accomplir le mandat, agir de bonne foi, informer le mandant."
+            },
+            {
+                question: "Quelles sont les obligations du mandant envers le mandataire ?",
+                answer: "Coopérer avec le mandataire, favoriser l'exécution du mandat."
+            },
+            {
+                question: "Qu'est-ce qu'un mandat apparent ?",
+                answer: "Mandat sans pouvoir réel, mais le tiers croit à son existence."
+            },
+            {
+                question: "Dans quelles circonstances un représentant peut-il être considéré comme mandataire de l'assureur ?",
+                answer: "Lorsqu'il agit pour un cabinet lié à un assureur par contrat d'exclusivité."
+            },
+            {
+                question: "Dans quelles circonstances un représentant peut-il être considéré comme mandataire de l'assuré ?",
+                answer: "Lorsqu'il représente l'assuré devant l'assureur."
+            },
+            {
+                question: "Quels sont les trois éléments nécessaires pour établir la responsabilité civile d'un représentant ?",
+                answer: "La faute, le préjudice, le lien de causalité."
+            },
+            {
+                question: "Quels types de préjudices peuvent être reconnus ?",
+                answer: "Préjudice corporel, matériel, moral."
+            },
+            {
+                question: "Quelle est la différence entre responsabilité extracontractuelle et responsabilité contractuelle ?",
+                answer: "Extracontractuelle : manquement aux règles de conduite ; contractuelle : mauvaise exécution d'un contrat."
+            },
+            {
+                question: "Quelles sont les sanctions possibles en cas d'infraction pénale selon la LDPSF ?",
+                answer: "Amendes de 2 000 $ à 150 000 $ pour une personne physique, 3 000 $ à 200 000 $ pour une personne morale."
+            },
+            {
+                question: "Quelles sont les instances compétentes pour juger une infraction criminelle ?",
+                answer: "Cour du Québec, Chambre criminelle et pénale, ou Cour supérieure."
+            },
+            {
+                question: "Quelle est la définition de l'éthique professionnelle ?",
+                answer: "Ensemble des principes moraux et de conduite."
+            },
+            {
+                question: "Quelle est la définition de la déontologie ?",
+                answer: "Ensemble des devoirs et obligations des membres d'une profession."
+            },
+            {
+                question: "Quels sont les objectifs d'un code de déontologie ?",
+                answer: "Protéger le public, garantir l'exercice intègre et compétent des activités professionnelles."
+            },
+            {
+                question: "Quels codes de déontologie s'appliquent aux représentants en assurance de dommages et aux experts en sinistre ?",
+                answer: "Code de déontologie des représentants en assurance de dommages (CDRAD) et Code de déontologie des experts en sinistre (CDES)."
+            },
+            {
+                question: "Quelles sont les obligations déontologiques d'un représentant envers ses clients ?",
+                answer: "Agir avec honnêteté, loyauté, compétence et professionnalisme."
+            },
+            {
+                question: "Comment est considéré Philippe, qui souhaite distribuer des produits d'assurance d'un assureur ?",
+                answer: "Comme un agent en assurance de dommages."
+            },
+            {
+                question: "Que doit faire Julien après avoir obtenu son certificat pour exercer comme représentant ?",
+                answer: "Choisir un mode d'exercice."
+            },
+            {
+                question: "Quels renseignements peuvent apparaître dans une brochure publicitaire d'un représentant ?",
+                answer: "Nom du représentant, description des services offerts, titre d'agent ou de courtier en assurance de dommages."
+            },
+            {
+                question: "Quelle situation ne peut être considérée comme une plainte en vertu de la LDPSF ?",
+                answer: "La plainte de Félix concernant son allocation de retraite."
+            },
+            {
+                question: "Quelle astuce utilisée par Nicolas est acceptable selon la LDPSF ?",
+                answer: "Partager une commission avec un autre représentant en assurance de dommages (Julien)."
+            }
+        ];
+
+        let shuffledQuestions = [...questions];
+        let answeredCount = 0;
+
+        // Fonction pour mélanger les questions (Fisher-Yates shuffle)
+        function shuffleArray(array) {
+            const newArray = [...array];
+            for (let i = newArray.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                [newArray[i], newArray[j]] = [newArray[j], newArray[i]];
+            }
+            return newArray;
+        }
+
+        // Fonction pour afficher les questions
+        function displayQuestions() {
+            const container = document.getElementById('questionsContainer');
+            container.innerHTML = '';
+
+            shuffledQuestions.forEach((item, index) => {
+                const questionCard = document.createElement('div');
+                questionCard.className = 'question-card';
+                questionCard.innerHTML = `
+                    <div class="question-number">Question ${index + 1}</div>
+                    <div class="question-text">${item.question}</div>
+                    <div class="answer-section">
+                        <button class="show-answer-btn" onclick="toggleAnswer(${index})">
+                            🔍 Voir la réponse
+                        </button>
+                        <div class="answer" id="answer-${index}">
+                            <div class="answer-text"><strong>Réponse :</strong> ${item.answer}</div>
+                        </div>
+                    </div>
+                `;
+                container.appendChild(questionCard);
+            });
+        }
+
+        // Fonction pour afficher/masquer une réponse
+        function toggleAnswer(index) {
+            const answer = document.getElementById(`answer-${index}`);
+            const button = answer.previousElementSibling;
+            
+            if (answer.classList.contains('show')) {
+                answer.classList.remove('show');
+                button.textContent = '🔍 Voir la réponse';
+                answeredCount--;
+            } else {
+                answer.classList.add('show');
+                button.textContent = '👁️ Masquer la réponse';
+                answeredCount++;
+            }
+            
+            updateStats();
+        }
+
+        // Fonction pour mélanger les questions
+        function shuffleQuestions() {
+            shuffledQuestions = shuffleArray(questions);
+            answeredCount = 0;
+            displayQuestions();
+            updateStats();
+        }
+
+        // Fonction pour masquer toutes les réponses
+        function hideAllAnswers() {
+            const answers = document.querySelectorAll('.answer');
+            const buttons = document.querySelectorAll('.show-answer-btn');
+            
+            answers.forEach(answer => answer.classList.remove('show'));
+            buttons.forEach(button => button.textContent = '🔍 Voir la réponse');
+            
+            answeredCount = 0;
+            updateStats();
+        }
+
+        // Fonction pour mettre à jour les statistiques
+        function updateStats() {
+            const totalQuestions = questions.length;
+            const progressPercent = Math.round((answeredCount / totalQuestions) * 100);
+            
+            document.getElementById('answeredCount').textContent = answeredCount;
+            document.getElementById('progressPercent').textContent = progressPercent + '%';
+            document.getElementById('progressBar').style.width = progressPercent + '%';
+        }
+
+        // Initialisation
+        document.addEventListener('DOMContentLoaded', function() {
+            shuffleQuestions();
+        });
+    </script>
+</body>
+</html>
