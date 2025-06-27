@@ -1,0 +1,1782 @@
+[
+  {
+    "question": "Quelle est la principale source du droit en assurance au Québec selon le chapitre 1?",
+    "answer": "Le Code civil du Québec (C.c.Q.).",
+    "page": 5
+  },
+  {
+    "question": "Quels sont les trois éléments requis pour établir une responsabilité extracontractuelle selon l'article 1457 C.c.Q.?",
+    "answer": "Faute, préjudice, lien causal.",
+    "page": 17
+  },
+  {
+    "question": "Quelle entité indemnise les dommages corporels sans égard à la faute en cas d'accident automobile?",
+    "answer": "La Société de l'assurance automobile du Québec (SAAQ).",
+    "page": 30
+  },
+  {
+    "question": "Quel est le montant minimal obligatoire de l'assurance responsabilité automobile selon l'article 87 LAA?",
+    "answer": "50 000 $.",
+    "page": 32
+  },
+  {
+    "question": "Quelle loi québécoise régit la protection des renseignements personnels dans le secteur privé?",
+    "answer": "Loi sur la protection des renseignements personnels dans le secteur privé (LPRPSP).",
+    "page": 24
+  },
+  {
+    "question": "Quelle est la durée générale de la prescription extinctive pour les droits personnels/mobiliers selon l'art. 2925 C.c.Q.?",
+    "answer": "3 ans.",
+    "page": 22
+  },
+  {
+    "question": "Quels sont les deux types de copropriété définis dans le C.c.Q.?",
+    "answer": "Copropriété divise (condominiums) et indivise.",
+    "page": 11
+  },
+  {
+    "question": "Quelle est la différence fondamentale entre conjoints mariés et conjoints de fait au Québec?",
+    "answer": "Les conjoints de fait n'ont aucun droit découlant des règles du partage du patrimoine familial ou de la dissolution du régime matrimonial.",
+    "page": 8
+  },
+  {
+    "question": "Quel organisme est créé par la Loi sur l'encadrement du secteur financier?",
+    "answer": "L'Autorité des marchés financiers (AMF).",
+    "page": 28
+  },
+  {
+    "question": "Qu'est-ce qu'un mandat en cas d'inaptitude selon l'art. 2131 C.c.Q.?",
+    "answer": "Mandat donné pour assurer la protection de la personne et l'administration des biens en prévision de l'inaptitude du mandant.",
+    "page": 20
+  },
+  {
+    "question": "Quelles sont les trois exceptions permettant de recueillir des renseignements personnels auprès d'un tiers selon la LPRPSP?",
+    "answer": "1) Autorisation légale 2) Intérêt de la personne 3) Vérification d'exactitude.",
+    "page": 26
+  },
+  {
+    "question": "Quelle loi fédérale s'applique aux transferts de données personnelles hors Québec?",
+    "answer": "Loi sur la protection des renseignements personnels et les documents électroniques (LPRPDE).",
+    "page": 40
+  },
+  {
+    "question": "Quelle est la conséquence juridique de l'absence d'intérêt d'assurance selon le C.c.Q.?",
+    "answer": "Nullité absolue du contrat.",
+    "page": 2
+  },
+  {
+    "question": "Qui est responsable des dommages causés par un enfant mineur selon les principes de responsabilité civile?",
+    "answer": "Les parents.",
+    "page": 48
+  },
+  {
+    "question": "Quelle est la caractéristique principale d'un contrat aléatoire selon le C.c.Q.?",
+    "answer": "L'étendue des obligations est incertaine au moment de la conclusion.",
+    "page": 15
+  },
+  {
+    "question": "Quel mécanisme permet à un assuré de réclamer à son propre assureur même si un tiers est responsable?",
+    "answer": "Convention d'indemnisation directe (CID).",
+    "page": 36
+  },
+  {
+    "question": "Quels sont les trois éléments constitutifs d'un contrat d'assurance selon l'art. 2389 C.c.Q.?",
+    "answer": "Risque, prime, prestation.",
+    "page": 1
+  },
+  {
+    "question": "Quelle instance judiciaire représente la plus haute autorité en jurisprudence au Canada?",
+    "answer": "Cour suprême du Canada.",
+    "page": 41
+  },
+  {
+    "question": "Quelle est la différence entre responsabilité contractuelle et extracontractuelle?",
+    "answer": "Contractuelle : liée à l'exécution d'un contrat. Extracontractuelle : sans lien contractuel.",
+    "page": 16
+  },
+  {
+    "question": "Quel délai de prescription s'applique à une atteinte à la réputation?",
+    "answer": "1 an.",
+    "page": 22
+  },
+  {
+    "question": "Quelle loi fédérale régit les messages électroniques commerciaux?",
+    "answer": "Loi canadienne anti-pourriel.",
+    "page": 40
+  },
+  {
+    "question": "Quelle est la définition légale d'une 'automobile' selon la LAA?",
+    "answer": "Tout véhicule mû par un autre pouvoir que la force musculaire et adapté au transport sur les chemins publics.",
+    "page": 31
+  },
+  {
+    "question": "Quels sont les trois régimes spéciaux de responsabilité mentionnés dans le C.c.Q.?",
+    "answer": "Fait d'autrui, fait des biens, responsabilité du fait des animaux/immeubles.",
+    "page": 16
+  },
+  {
+    "question": "Quelle protection offre la Liste nationale des numéros de télécommunication exclus (LNNTE)?",
+    "answer": "Permet aux consommateurs de ne pas recevoir d'appels de télémarketing non sollicités.",
+    "page": 40
+  },
+  {
+    "question": "Quelle est la différence entre succession légale et testamentaire?",
+    "answer": "Légale : sans testament. Testamentaire : avec testament.",
+    "page": 9
+  },
+  {
+    "question": "Quels sont les quatre moyens de défense en responsabilité civile?",
+    "answer": "Force majeure, bonne foi, acceptation des risques, clauses de non-responsabilité.",
+    "page": 16
+  },
+  {
+    "question": "Quelle loi encadre les documents électroniques au Québec?",
+    "answer": "Loi concernant le cadre juridique des technologies de l'information (LCCJTI).",
+    "page": 37
+  },
+  {
+    "question": "Quelle est la définition d'un 'bien meuble' selon le C.c.Q.?",
+    "answer": "Chose qui peut être transportée.",
+    "page": 10
+  },
+  {
+    "question": "Quels sont les trois types de contrats d'assurance terrestre définis dans le C.c.Q.?",
+    "answer": "Assurance de personnes, assurance de biens, assurance de responsabilité civile.",
+    "page": 20
+  },
+  {
+    "question": "Quelle est la règle d'interprétation contra proferentem dans les contrats d'adhésion?",
+    "answer": "En cas de doute, interprétation en faveur de l'adhérent.",
+    "page": 3
+  },
+  {
+    "question": "Quelles sont les obligations du mandataire envers le mandant?",
+    "answer": "Agir avec prudence, diligence, honnêteté et loyauté dans l'intérêt du mandant.",
+    "page": 18
+  },
+  {
+    "question": "Quelle loi régit les représentants en assurance et les experts en sinistres?",
+    "answer": "Loi sur la distribution de produits et services financiers (LDPSF).",
+    "page": 29
+  },
+  {
+    "question": "Quelle est la présomption concernant le propriétaire d'un véhicule en cas d'accident selon la LAA?",
+    "answer": "Présumé responsable du dommage matériel causé par son véhicule.",
+    "page": 34
+  },
+  {
+    "question": "Quelles sont les conditions pour qu'un risque soit assurable?",
+    "answer": "Événement incertain, futur, indépendant de la volonté des parties.",
+    "page": 1
+  },
+  {
+    "question": "Quelle est la particularité du contrat d'assurance automobile concernant le renouvellement?",
+    "answer": "Renouvelé de plein droit sauf avis contraire 30 jours avant échéance.",
+    "page": 33
+  },
+  {
+    "question": "Quelle est la différence entre personne physique et personne morale?",
+    "answer": "Personne morale : entité juridique distincte avec existence perpétuelle.",
+    "page": 7
+  },
+  {
+    "question": "Quels sont les droits d'accès d'une personne concernant ses renseignements personnels selon la LPRPSP?",
+    "answer": "Droit de consultation, rectification et copie.",
+    "page": 27
+  },
+  {
+    "question": "Quelle est la responsabilité du conducteur en cas d'accident selon l'art. 109 LAA?",
+    "answer": "Solidairement responsable avec le propriétaire.",
+    "page": 34
+  },
+  {
+    "question": "Quels sont les trois domaines sectoriels importants pour les professionnels de l'assurance?",
+    "answer": "Environnement, construction, droit municipal.",
+    "page": 38
+  },
+  {
+    "question": "Quelle est la définition d'un 'renseignement personnel' selon la LPRPSP?",
+    "answer": "Tout renseignement concernant une personne physique qui permet de l'identifier.",
+    "page": 24
+  },
+  {
+    "question": "Quelle est la règle concernant les clauses externes dans les contrats d'adhésion?",
+    "answer": "Doivent être portées à connaissance lors de la formation.",
+    "page": 2
+  },
+  {
+    "question": "Quels sont les effets d'une mise en demeure sur la prescription extinctive?",
+    "answer": "N'interrompt pas la prescription.",
+    "page": 22
+  },
+  {
+    "question": "Quelle est la compétence provinciale en assurance selon la Constitution?",
+    "answer": "Contenu des contrats d'assurance.",
+    "page": 4
+  },
+  {
+    "question": "Quel est le rôle principal de la doctrine en droit?",
+    "answer": "Fournir analyses et commentaires de juristes.",
+    "page": 41
+  },
+  {
+    "question": "Quelle loi encadre la responsabilité professionnelle?",
+    "answer": "Lois constitutives des professions et codes de déontologie.",
+    "page": 39
+  },
+  {
+    "question": "Quels sont les deux régimes distincts créés par la Loi sur l'assurance automobile?",
+    "answer": "Dommages corporels (sans égard à la faute) et dommages matériels (basés sur la faute).",
+    "page": 30
+  },
+  {
+    "question": "Quelle est la définition du 'patrimoine' selon le C.c.Q.?",
+    "answer": "Ensemble des biens et obligations d'une personne appréciables en argent.",
+    "page": 7
+  },
+  {
+    "question": "Quelle est la conséquence pour une entreprise qui ne répond pas à une demande d'accès aux renseignements personnels dans les 30 jours?",
+    "answer": "Réputée avoir refusé la demande.",
+    "page": 27
+  },
+  {
+    "question": "Quels sont les éléments clés du contrat de mandat?",
+    "answer": "Mandant, mandataire, pouvoir de représentation.",
+    "page": 18
+  },
+  {
+    "question": "Quelle est la particularité de la prescription en matière de dommages corporels?",
+    "answer": "Délais inférieurs à 3 ans inapplicables.",
+    "page": 22
+  },
+  {
+    "question": "Quels sont les trois éléments constitutifs du contrat d'assurance selon l'article 2389 C.c.Q.?",
+    "answer": "Le risque, la prime et la prestation.",
+    "page": 59
+  },
+  {
+    "question": "Quelle caractéristique doit avoir un risque pour être assurable?",
+    "answer": "Il doit être incertain, possible, futur et indépendant de la volonté des parties.",
+    "page": 59
+  },
+  {
+    "question": "Qui est considéré comme 'représentant' selon l'article 1 de la LDPSF?",
+    "answer": "Le représentant en assurance, l'expert en sinistre et le planificateur financier.",
+    "page": 61
+  },
+  {
+    "question": "Quelle différence existe-t-il entre un agent et un courtier en assurance de dommages?",
+    "answer": "Le courtier offre des produits de plusieurs assureurs, tandis que l'agent n'offre que les produits d'un seul assureur.",
+    "page": 61
+  },
+  {
+    "question": "Pourquoi l'intérêt d'assurance est-il essentiel à la validité du contrat?",
+    "answer": "Pour éviter l'enrichissement sans cause et la spéculation sur les biens.",
+    "page": 64
+  },
+  {
+    "question": "Quelles sont les deux catégories d'assurance de dommages selon l'article 2396 C.c.Q.?",
+    "answer": "L'assurance de biens et l'assurance de responsabilité.",
+    "page": 60
+  },
+  {
+    "question": "Quel article du C.c.Q. définit le contrat d'assurance de dommages?",
+    "answer": "L'article 2395 C.c.Q.",
+    "page": 60
+  },
+  {
+    "question": "Quelle est la conséquence juridique d'un contrat d'assurance sans intérêt d'assurance?",
+    "answer": "Nullité absolue du contrat.",
+    "page": 64
+  },
+  {
+    "question": "Quelles sont les quatre caractéristiques principales du contrat d'assurance?",
+    "answer": "Contrat de la plus haute bonne foi, indemnitaire, bilatéral/synallagmatique, aléatoire.",
+    "page": 66
+  },
+  {
+    "question": "Quelle obligation spécifique implique le caractère indemnitaire en assurance de dommages?",
+    "answer": "L'assureur s'engage à réparer le préjudice subi sans permettre à l'assuré de s'enrichir.",
+    "page": 66
+  },
+  {
+    "question": "Quelles sont les quatre conditions de validité d'un contrat selon l'article 1385 C.c.Q.?",
+    "answer": "Consentement, capacité, objet et cause.",
+    "page": 67
+  },
+  {
+    "question": "Quelle différence existe-t-il entre consentement exprès et tacite?",
+    "answer": "Le consentement exprès est clairement manifesté, tandis que le tacite est déduit du comportement.",
+    "page": 67
+  },
+  {
+    "question": "Un mineur de 14 ans peut-il souscrire un contrat d'assurance pour son entreprise?",
+    "answer": "Oui, car c'est un acte relatif à son emploi (art. 156 C.c.Q.).",
+    "page": 69
+  },
+  {
+    "question": "Quand un objet de contrat est-il considéré comme illicite?",
+    "answer": "Lorsqu'il est prohibé par la loi ou contraire à l'ordre public.",
+    "page": 69
+  },
+  {
+    "question": "Qu'est-ce qu'une 'clause abusive' dans un contrat d'adhésion?",
+    "answer": "Une clause qui désavantage excessivement l'adhérent, contraire à la bonne foi.",
+    "page": 73
+  },
+  {
+    "question": "Quelle règle d'interprétation s'applique en priorité selon l'article 1425 C.c.Q.?",
+    "answer": "La recherche de l'intention commune des parties.",
+    "page": 75
+  },
+  {
+    "question": "Quel est l'effet de la règle 'contra proferentem' dans un contrat d'assurance?",
+    "answer": "Le contrat s'interprète contre l'assureur (rédacteur) en cas de doute.",
+    "page": 75
+  },
+  {
+    "question": "Quels sont les trois éléments nécessaires pour établir une responsabilité civile?",
+    "answer": "Faute, préjudice, lien causal entre la faute et le préjudice.",
+    "page": 77
+  },
+  {
+    "question": "Quelle différence existe entre responsabilité contractuelle et extracontractuelle?",
+    "answer": "La responsabilité contractuelle suppose un lien contractuel entre les parties, contrairement à l'extracontractuelle.",
+    "page": 76
+  },
+  {
+    "question": "Quel article du C.c.Q. prévoit la responsabilité du commettant pour son préposé?",
+    "answer": "L'article 1463 C.c.Q.",
+    "page": 83
+  },
+  {
+    "question": "Qu'est-ce qu'une présomption de responsabilité?",
+    "answer": "Un régime où le défendeur ne peut s'exonérer en prouvant l'absence de faute personnelle.",
+    "page": 91
+  },
+  {
+    "question": "Quelles conditions doivent être réunies pour invoquer la force majeure?",
+    "answer": "Événement imprévisible et irrésistible.",
+    "page": 92
+  },
+  {
+    "question": "Quelle protection offre l'article 1471 C.c.Q. au 'bon Samaritain'?",
+    "answer": "Exonération de responsabilité sauf en cas de faute intentionnelle ou lourde.",
+    "page": 92
+  },
+  {
+    "question": "Quand une clause de non-responsabilité est-elle nulle?",
+    "answer": "Lorsqu'elle vise à exclure la responsabilité pour préjudice corporel/moral ou pour faute intentionnelle/lourde.",
+    "page": 94
+  },
+  {
+    "question": "Quel est le délai de prescription pour un recours en responsabilité civile?",
+    "answer": "3 ans (art. 2925 C.c.Q.).",
+    "page": 100
+  },
+  {
+    "question": "Qu'est-ce que l'IARD en assurance?",
+    "answer": "Incendie, Accident et Risques Divers (autre nom pour l'assurance de dommages).",
+    "page": 60
+  },
+  {
+    "question": "Qui est le 'preneur' dans un contrat d'assurance?",
+    "answer": "La personne qui contracte l'assurance, paie les primes et est titulaire du contrat.",
+    "page": 61
+  },
+  {
+    "question": "Quand un risque est-il considéré comme 'dépendant'?",
+    "answer": "Lors qu'il peut être réalisé par la seule volonté de l'assuré (ex: acte intentionnel).",
+    "page": 63
+  },
+  {
+    "question": "Quel principe limite le montant de l'indemnité en assurance de dommages?",
+    "answer": "Le principe indemnitaire (pas d'enrichissement de l'assuré).",
+    "page": 64
+  },
+  {
+    "question": "Quelle obligation découle de la 'plus haute bonne foi' pour le preneur?",
+    "answer": "Déclarer tous les éléments pertinents pour l'appréciation du risque.",
+    "page": 65
+  },
+  {
+    "question": "Qu'est-ce qu'un contrat 'consensuel'?",
+    "answer": "Un contrat formé par le seul accord des parties, sans formalisme particulier.",
+    "page": 66
+  },
+  {
+    "question": "Quand un majeur sous régime de protection peut-il souscrire une assurance?",
+    "answer": "Avec le consentement de son tuteur, curateur ou conseiller.",
+    "page": 68
+  },
+  {
+    "question": "Qu'est-ce que la 'lésion' comme vice de consentement?",
+    "answer": "Une disproportion importante entre les prestations causée par l'exploitation d'une partie.",
+    "page": 68
+  },
+  {
+    "question": "Quel est l'objet du contrat en assurance?",
+    "answer": "Pour l'assureur: verser une indemnité en cas de réalisation du risque couvert.",
+    "page": 69
+  },
+  {
+    "question": "Qu'est-ce que la 'cause' du contrat pour l'assureur?",
+    "answer": "La prime versée par le preneur.",
+    "page": 70
+  },
+  {
+    "question": "Quand une clause 'externe' est-elle valide?",
+    "answer": "Si elle est expressément portée à la connaissance de l'adhérent lors de la formation du contrat.",
+    "page": 73
+  },
+  {
+    "question": "Quand un juge doit-il interpréter un contrat?",
+    "answer": "Uniquement en cas d'ambiguïté réelle après examen initial.",
+    "page": 74
+  },
+  {
+    "question": "Quelle théorie d'interprétation est rejetée par les tribunaux québécois?",
+    "answer": "La théorie de l'attente raisonnable de l'assuré.",
+    "page": 76
+  },
+  {
+    "question": "Quels dommages sont couverts par l'article 1611 C.c.Q.?",
+    "answer": "La perte subie et le gain dont le créancier est privé (principe de réparation intégrale).",
+    "page": 78
+  },
+  {
+    "question": "Qu'est-ce qu'un préjudice corporel?",
+    "answer": "Atteinte à l'intégrité physique (blessures, maladies).",
+    "page": 79
+  },
+  {
+    "question": "Quel critère détermine le montant des dommages punitifs?",
+    "answer": "Le montant suffisant pour assurer leur fonction préventive (art. 1621 C.c.Q.).",
+    "page": 80
+  },
+  {
+    "question": "Quelle présomption s'applique au titulaire de l'autorité parentale?",
+    "answer": "Présomption de faute pour les dommages causés par l'enfant mineur.",
+    "page": 81
+  },
+  {
+    "question": "Quand un gardien d'enfant est-il responsable selon l'article 1460 C.c.Q.?",
+    "answer": "S'il agit gratuitement: seulement en cas de preuve de sa faute. Sinon: présomption de faute.",
+    "page": 82
+  },
+  {
+    "question": "Quelle faute engage la responsabilité du gardien d'un majeur non doué de raison?",
+    "answer": "Faute lourde ou intentionnelle (art. 1461 C.c.Q.).",
+    "page": 83
+  },
+  {
+    "question": "Qu'est-ce que le 'fait autonome' d'un bien?",
+    "answer": "Un préjudice causé sans intervention humaine (ex: objet qui tombe).",
+    "page": 84
+  },
+  {
+    "question": "Quelle responsabilité engage l'article 1466 C.c.Q.?",
+    "answer": "Responsabilité du propriétaire d'un animal pour les préjudices causés par celui-ci.",
+    "page": 85
+  },
+  {
+    "question": "Qu'est-ce que la 'garantie légale' selon la Loi sur la protection du consommateur?",
+    "answer": "L'obligation que le bien soit utilisable pendant une durée raisonnable (art. 38 LPC).",
+    "page": 87
+  },
+  {
+    "question": "Qui peut invoquer la responsabilité pour défaut de sécurité d'un produit?",
+    "answer": "Toute personne autre que l'acheteur (régime extracontractuel).",
+    "page": 88
+  },
+  {
+    "question": "Quel est le fardeau de preuve en matière civile?",
+    "answer": "Balance des probabilités (preuve rendant le fait plus probable que son inexistence).",
+    "page": 90
+  },
+  {
+    "question": "Qu'est-ce qu'une présomption de faute?",
+    "answer": "Un renversement du fardeau de preuve: le défendeur doit prouver son absence de faute.",
+    "page": 90
+  },
+  {
+    "question": "Quel moyen de défense offre l'article 1472 C.c.Q.?",
+    "answer": "Exonération pour divulgation de secret commercial dans l'intérêt général.",
+    "page": 93
+  },
+  {
+    "question": "Quelle condition rend un avis de non-responsabilité valable pour les dommages matériels?",
+    "answer": "Preuve que la victime en avait connaissance au moment de la formation du contrat.",
+    "page": 94
+  },
+  {
+    "question": "Quelles conditions caractérisent l'acceptation des risques?",
+    "answer": "1) Existence d'un risque clair 2) Connaissance du risque 3) Acceptation explicite ou implicite.",
+    "page": 95
+  },
+  {
+    "question": "Quel article prévoit le partage de responsabilité?",
+    "answer": "L'article 1478 C.c.Q.",
+    "page": 96
+  },
+  {
+    "question": "Qu'est-ce que la prescription extinctive?",
+    "answer": "Libération d'une obligation par l'écoulement du délai légal sans action en justice.",
+    "page": 98
+  },
+  {
+    "question": "Comment calcule-t-on le point de départ de la prescription?",
+    "answer": "À compter du jour où le droit d'action naît (ou du jour où le préjudice se manifeste).",
+    "page": 100
+  },
+  {
+    "question": "Quel délai s'applique à une action en diffamation?",
+    "answer": "1 an (art. 2929 C.c.Q.).",
+    "page": 101
+  },
+  {
+    "question": "Quelle règle protège les victimes de préjudice corporel concernant la prescription?",
+    "answer": "Interdiction des délais inférieurs à 3 ans ou des avis préalables (art. 2930 C.c.Q.).",
+    "page": 102
+  },
+  {
+    "question": "Qui est 'l'adhérent' dans un contrat d'assurance collectif?",
+    "answer": "La personne assurée dans le cadre d'un contrat collectif (ex: assurance groupe).",
+    "page": 64
+  },
+  {
+    "question": "Quel est l'effet d'un avenant hypothécaire?",
+    "answer": "Protège le créancier hypothécaire contre certains moyens de défense de l'assureur.",
+    "page": 62
+  },
+  {
+    "question": "Quelle condition rend un risque non-assurable?",
+    "answer": "S'il est déjà réalisé (ex: assurer un bien déjà incendié).",
+    "page": 63
+  },
+  {
+    "question": "Quelle est la définition légale de l'usufruitier?",
+    "answer": "Personne qui a le droit d'user et de jouir d'un bien dont un autre est propriétaire (art. 121 C.c.Q.).",
+    "page": 64
+  },
+  {
+    "question": "Quel article impose à l'assureur le devoir d'informer?",
+    "answer": "L'article 2403 C.c.Q. (conditions non écrites inopposables).",
+    "page": 73
+  },
+  {
+    "question": "Qu'est-ce qu'une clause 'illisible'?",
+    "answer": "Clause que ne peut lire une personne raisonnable en raison de sa présentation matérielle.",
+    "page": 73
+  },
+  {
+    "question": "Quelle règle s'applique à l'interprétation des clauses contractuelles?",
+    "answer": "Elles s'interprètent les unes par rapport aux autres (règle de globalité - art. 1427 C.c.Q.).",
+    "page": 75
+  },
+  {
+    "question": "Quel est le délai d'indemnisation pour l'assureur selon l'art. 2473 C.c.Q.?",
+    "answer": "60 jours après le sinistre.",
+    "page": 100
+  },
+  {
+    "question": "Quelle est la définition de la 'faute lourde'?",
+    "answer": "Faute qui dénote une insouciance, imprudence ou négligence grossières (art. 1474 C.c.Q.).",
+    "page": 83
+  },
+  {
+    "question": "Qui est responsable de la ruine d'un bâtiment?",
+    "answer": "Le propriétaire (art. 1467 C.c.Q.).",
+    "page": 84
+  },
+  {
+    "question": "Quelle présomption bénéficie à la victime d'un défaut de sécurité?",
+    "answer": "Présomption de responsabilité du fabricant/fournisseur lorsque le défaut est prouvé.",
+    "page": 89
+  },
+  {
+    "question": "Qu'est-ce que l'obligation de minimiser ses dommages?",
+    "answer": "Devoir de la victime de limiter l'aggravation de son préjudice (art. 1479 C.c.Q.).",
+    "page": 97
+  },
+  {
+    "question": "Quand la solidarité s'applique-t-elle en responsabilité?",
+    "answer": "Lorsque plusieurs personnes ont causé un même préjudice et qu'on ne peut identifier l'auteur exact.",
+    "page": 98
+  },
+  {
+    "question": "Quel délai de prescription s'applique aux agressions sexuelles?",
+    "answer": "30 ans (art. 2926.1 C.c.Q.).",
+    "page": 101
+  },
+  {
+    "question": "Pourquoi l'expert en sinistre doit-il informer l'assuré des délais de prescription?",
+    "answer": "En raison de ses obligations déontologiques (art. 18 Code de déontologie).",
+    "page": 99
+  },
+  {
+    "question": "Quelle est la définition de la 'prime' en assurance?",
+    "answer": "Somme payée par le preneur en contrepartie de l'engagement de l'assureur.",
+    "page": 63
+  },
+  {
+    "question": "Qui peut être 'assuré' dans un contrat d'assurance de dommages?",
+    "answer": "La personne ayant un intérêt assurable dans les biens couverts.",
+    "page": 61
+  },
+  {
+    "question": "Quelle est la sanction d'une clause abusive?",
+    "answer": "Nullité de la clause ou réduction de l'obligation qui en découle.",
+    "page": 73
+  },
+  {
+    "question": "Qu'est-ce que la 'force obligatoire' du contrat?",
+    "answer": "L'obligation de respecter le contrat tel que formé (art. 1434 C.c.Q.).",
+    "page": 72
+  },
+  {
+    "question": "Quelle est la différence entre préjudice moral et matériel?",
+    "answer": "Le moral atteint les droits de la personnalité, le matériel concerne les biens ou pertes pécuniaires.",
+    "page": 79
+  },
+  {
+    "question": "Quels sont les trois éléments essentiels d'un contrat d'assurance ?",
+    "answer": "Le risque, la prime et la prestation.",
+    "page": 113
+  },
+  {
+    "question": "À quel moment un contrat d'assurance est-il formé selon l'article 2398 C.c.Q. ?",
+    "answer": "Dès que l'assureur accepte la proposition du preneur.",
+    "page": 113
+  },
+  {
+    "question": "Quelle est la sanction pour une déclaration tardive de sinistre si l'assureur subit un préjudice ?",
+    "answer": "Déchéance du droit à l'indemnité.",
+    "page": 147
+  },
+  {
+    "question": "Quelle méthode d'évaluation utilise-t-on par défaut pour les contrats à valeur indéterminée ?",
+    "answer": "La valeur de remplacement dépréciée.",
+    "page": 152
+  },
+  {
+    "question": "Quelle est la durée maximale d'inoccupation d'une résidence principale sans aggravation de risque ?",
+    "answer": "30 jours.",
+    "page": 131
+  },
+  {
+    "question": "Qui peut invoquer la subrogation contre le tiers responsable d'un sinistre ?",
+    "answer": "L'assureur après paiement de l'indemnité.",
+    "page": 159
+  },
+  {
+    "question": "Quelle sanction s'applique en cas de déclaration mensongère sur des biens meubles lors d'un sinistre ?",
+    "answer": "Perte du droit à l'indemnité pour la catégorie de biens concernée.",
+    "page": 149
+  },
+  {
+    "question": "Quel article du C.c.Q. régit la réduction proportionnelle en cas de sous-assurance ?",
+    "answer": "Article 2493 C.c.Q.",
+    "page": 155
+  },
+  {
+    "question": "Dans quel cas l'assureur peut-il résilier unilatéralement un contrat d'assurance automobile après 60 jours ?",
+    "answer": "Pour non-paiement de prime ou aggravation du risque.",
+    "page": 125
+  },
+  {
+    "question": "Qu'est-ce qu'un contrat d'assurance provisoire ?",
+    "answer": "Une couverture immédiate délivrée avant l'acceptation définitive de la proposition (note de couverture).",
+    "page": 114
+  },
+  {
+    "question": "Quelles sont les trois obligations comprises dans la preuve de perte ?",
+    "answer": "1) Déclarer les circonstances du sinistre 2) Fournir pièces justificatives 3) Attester la véracité sous serment.",
+    "page": 148
+  },
+  {
+    "question": "Quelle est la sanction pour non-respect d'un engagement formel ?",
+    "answer": "Suspension de la garantie d'assurance.",
+    "page": 122
+  },
+  {
+    "question": "Qui est considéré comme faisant partie de la 'maison de l'assuré' pour l'immunité de subrogation ?",
+    "answer": "Personnes liées par affection ou parenté vivant sous le même toit (interprétation jurisprudentielle élargie).",
+    "page": 160
+  },
+  {
+    "question": "Quel délai l'assureur a-t-il pour payer l'indemnité après réception des documents ?",
+    "answer": "60 jours.",
+    "page": 150
+  },
+  {
+    "question": "Qu'est-ce que la franchise en assurance ?",
+    "answer": "Montant des dommages restant à la charge de l'assuré avant l'intervention de l'assureur.",
+    "page": 153
+  },
+  {
+    "question": "Quelle est la différence entre annulation et résiliation d'un contrat ?",
+    "answer": "L'annulation rétroagit (contrat nul ab initio), la résiliation prend effet pour l'avenir.",
+    "page": 123
+  },
+  {
+    "question": "Quel article du C.c.Q. protège les créanciers hypothécaires lors de la modification d'un contrat ?",
+    "answer": "Article 2478 C.c.Q. (avis de 15 jours obligatoire).",
+    "page": 124
+  },
+  {
+    "question": "Qu'est-ce que l'aggravation de risque en assurance ?",
+    "answer": "Circonstance augmentant les risques garantis résultant des faits de l'assuré.",
+    "page": 130
+  },
+  {
+    "question": "Quelle méthode d'évaluation prévoit une valeur fixée à l'avance par les parties ?",
+    "answer": "Contrat à valeur agréée.",
+    "page": 152
+  },
+  {
+    "question": "Qui bénéficie de l'attribution légale de l'indemnité selon l'article 2497 C.c.Q. ?",
+    "answer": "Créanciers hypothécaires ou prioritaires selon leur rang.",
+    "page": 157
+  },
+  {
+    "question": "Quelle est la sanction pour fausse déclaration initiale si la mauvaise foi est établie ?",
+    "answer": "Nullité du contrat.",
+    "page": 121
+  },
+  {
+    "question": "Qu'est-ce que la subrogation légale ?",
+    "answer": "Substitution automatique de l'assureur dans les droits de l'assuré contre le tiers responsable.",
+    "page": 158
+  },
+  {
+    "question": "Quelle limite s'applique à l'obligation de déclaration du risque selon l'art. 2409 C.c.Q. ?",
+    "answer": "La déclaration doit être substantiellement conforme (pas exactement conforme).",
+    "page": 118
+  },
+  {
+    "question": "Quelle règle protège l'assuré lors du renouvellement avec modifications ?",
+    "answer": "Modifications opposables seulement si indiquées dans un document distinct (art. 2405 al.3 C.c.Q.).",
+    "page": 125
+  },
+  {
+    "question": "Quand la prime devient-elle exigible selon l'art. 2469 C.c.Q. ?",
+    "answer": "Au commencement du risque couvert.",
+    "page": 133
+  },
+  {
+    "question": "Quelle est la durée maximale de présence de gens de métier sans déclaration d'aggravation ?",
+    "answer": "30 jours.",
+    "page": 131
+  },
+  {
+    "question": "Quel article interdit à l'assureur d'invoquer des déclarations verbales ?",
+    "answer": "Article 2403 C.c.Q.",
+    "page": 120
+  },
+  {
+    "question": "Qu'est-ce qu'un engagement formel en assurance ?",
+    "answer": "Engagement de l'assuré à adopter des mesures pour diminuer le risque.",
+    "page": 122
+  },
+  {
+    "question": "Quelle est la sanction pour non-déclaration d'aggravation de risque ?",
+    "answer": "Réduction proportionnelle ou résiliation du contrat.",
+    "page": 132
+  },
+  {
+    "question": "Qui peut aviser l'assureur d'un sinistre selon l'art. 2470 C.c.Q. ?",
+    "answer": "L'assuré ou tout intéressé (victime, créancier, etc.).",
+    "page": 146
+  },
+  {
+    "question": "Qu'est-ce que la règle de l'assuré 'normalement prévoyant' ?",
+    "answer": "Obligation résiduelle de déclarer au-delà du questionnaire si les circonstances l'exigent.",
+    "page": 119
+  },
+  {
+    "question": "Quelle est la conséquence d'une faute intentionnelle en assurance responsabilité ?",
+    "answer": "L'assureur n'indemnise pas la victime et ne défend pas l'assuré.",
+    "page": 129
+  },
+  {
+    "question": "Quel article rend les dispositions du Code civil impératives en assurance ?",
+    "answer": "Article 2414 C.c.Q.",
+    "page": 123
+  },
+  {
+    "question": "Qu'est-ce que la surassurance ?",
+    "answer": "Montant d'assurance supérieur à la valeur réelle du bien.",
+    "page": 155
+  },
+  {
+    "question": "Quelle méthode d'évaluation couvre le coût de remplacement sans dépréciation ?",
+    "answer": "Valeur à neuf.",
+    "page": 152
+  },
+  {
+    "question": "Quel est l'effet d'une clause hypothécaire pour le créancier ?",
+    "answer": "Statut d'assuré indépendant (immunité contre les manquements de l'assuré).",
+    "page": 157
+  },
+  {
+    "question": "Quelle est la prescription pour une action en paiement d'indemnité ?",
+    "answer": "3 ans à compter du refus de l'assureur.",
+    "page": 151
+  },
+  {
+    "question": "Qu'est-ce que l'intérêt d'assurance selon l'art. 2481 C.c.Q. ?",
+    "answer": "Préjudice direct et immédiat causé par la perte du bien.",
+    "page": 135
+  },
+  {
+    "question": "Quand l'assureur peut-il exercer son recours subrogatoire ?",
+    "answer": "Après paiement de l'indemnité à l'assuré.",
+    "page": 159
+  },
+  {
+    "question": "Quelle est la différence entre faute lourde et faute intentionnelle ?",
+    "answer": "La faute intentionnelle implique l'intention de nuire, la faute lourde non.",
+    "page": 128
+  },
+  {
+    "question": "Quel article régit le contrat 'pour le compte de qui il appartiendra' ?",
+    "answer": "Article 2483 al.1 C.c.Q.",
+    "page": 137
+  },
+  {
+    "question": "Quelle est la sanction pour non-respect de l'obligation de défense en responsabilité ?",
+    "answer": "L'assureur peut être condamné à des dommages-intérêts envers l'assuré.",
+    "page": 142
+  },
+  {
+    "question": "Qui détermine l'étendue de la garantie en assurance de biens ?",
+    "answer": "Le consentement des parties (principe de liberté contractuelle).",
+    "page": 137
+  },
+  {
+    "question": "Qu'est-ce que la sous-assurance ?",
+    "answer": "Montant d'assurance inférieur à la valeur réelle du bien.",
+    "page": 154
+  },
+  {
+    "question": "Quelle règle s'applique en cas de pluralité d'assureurs pour un même bien ?",
+    "answer": "Contribution proportionnelle au montant d'assurance souscrit.",
+    "page": 153
+  },
+  {
+    "question": "Quel est le délai de présomption d'acceptation des modifications au renouvellement ?",
+    "answer": "30 jours après réception du document.",
+    "page": 125
+  },
+  {
+    "question": "Qu'est-ce qu'une divergence au sens de l'art. 2400 C.c.Q. ?",
+    "answer": "Opposition substantielle entre police et proposition nécessitant un document séparé.",
+    "page": 115
+  },
+  {
+    "question": "Quelle limite s'applique à la subrogation selon l'art. 2474 C.c.Q. ?",
+    "answer": "Interdiction d'être subrogé contre les personnes de la maison de l'assuré.",
+    "page": 159
+  },
+  {
+    "question": "Quel article oblige l'assureur à défendre l'assuré en responsabilité ?",
+    "answer": "Article 2503 C.c.Q.",
+    "page": 142
+  },
+  {
+    "question": "Qu'est-ce que la force majeure en assurance ?",
+    "answer": "Événement imprévisible et irrésistible (art. 1470 C.c.Q.).",
+    "page": 126
+  },
+  {
+    "question": "Qui doit prouver la fausse déclaration initiale ?",
+    "answer": "L'assureur (fardeau de la preuve).",
+    "page": 120
+  },
+  {
+    "question": "Quelle est la sanction pour une transaction sans consentement de l'assureur ?",
+    "answer": "Transaction inopposable à l'assureur.",
+    "page": 145
+  },
+  {
+    "question": "Qu'est-ce que la réduction proportionnelle de l'indemnité ?",
+    "answer": "Réduction calculée par rapport au sous-assurance (art. 2493 C.c.Q.).",
+    "page": 154
+  },
+  {
+    "question": "Qui bénéficie du paiement direct en assurance responsabilité ?",
+    "answer": "La victime (art. 2500 C.c.Q.).",
+    "page": 141
+  },
+  {
+    "question": "Quel article interdit les clauses d'exclusion générales pour violation de loi ?",
+    "answer": "Article 2402 al.1 C.c.Q. (valable seulement pour actes criminels).",
+    "page": 140
+  },
+  {
+    "question": "Qu'est-ce que la note de couverture ?",
+    "answer": "Contrat d'assurance provisoire délivré avant acceptation définitive.",
+    "page": 114
+  },
+  {
+    "question": "Quelle est la règle pour l'assurance de biens à venir ?",
+    "answer": "Permise par l'art. 2482 C.c.Q. (existence non requise à la conclusion).",
+    "page": 136
+  },
+  {
+    "question": "Qui est responsable de la preuve de valeur en contrat à valeur indéterminée ?",
+    "answer": "L'assuré (demandeur de l'indemnité).",
+    "page": 151
+  },
+  {
+    "question": "Quel critère définit l'intérêt d'assurance selon la jurisprudence Kosmopoulos ?",
+    "answer": "Lien suffisant causant un préjudice en cas de réalisation du risque.",
+    "page": 136
+  },
+  {
+    "question": "Qu'est-ce qu'une réticence en assurance ?",
+    "answer": "Omission de déclarer une circonstance connue et pertinente.",
+    "page": 120
+  },
+  {
+    "question": "Quelle est la durée typique d'un contrat d'assurance de dommages ?",
+    "answer": "1 an.",
+    "page": 123
+  },
+  {
+    "question": "Quel article prévoit la réduction d'indemnité pour fausse déclaration de bonne foi ?",
+    "answer": "Article 2411 C.c.Q.",
+    "page": 120
+  },
+  {
+    "question": "Qu'est-ce que la théorie des 'deux contrats' en clause hypothécaire ?",
+    "answer": "Clause créant un contrat distinct entre assureur et créancier.",
+    "page": 157
+  },
+  {
+    "question": "Qui doit aviser l'assureur d'une aggravation de risque ?",
+    "answer": "L'assuré (obligation proactive).",
+    "page": 130
+  },
+  {
+    "question": "Quel article étend la garantie incendie aux explosions sans feu ?",
+    "answer": "Article 2485 C.c.Q.",
+    "page": 138
+  },
+  {
+    "question": "Qu'est-ce que la valeur de remplacement dépréciée ?",
+    "answer": "Valeur de remplacement moins dépréciation + éléments récupérés.",
+    "page": 152
+  },
+  {
+    "question": "Quelle sanction s'applique si l'assuré compromet la subrogation ?",
+    "answer": "Libération partielle ou totale de l'assureur de son obligation.",
+    "page": 160
+  },
+  {
+    "question": "Qui détermine le montant d'assurance en contrat à valeur agréée ?",
+    "answer": "Les parties à l'avance lors de la conclusion.",
+    "page": 151
+  },
+  {
+    "question": "Quel est l'effet d'une clause de non-responsabilité sur la subrogation ?",
+    "answer": "Prive l'assureur de son recours contre le tiers.",
+    "page": 160
+  },
+  {
+    "question": "Qu'est-ce que l'immunité de l'assureur de responsabilité civile domestique ?",
+    "answer": "Impossibilité de subrogation contre l'assureur des personnes de la maison.",
+    "page": 159
+  },
+  {
+    "question": "Quelle règle protège les victimes d'automobile contre les exceptions de l'assureur ?",
+    "answer": "Art. 119 LAA : inopposabilité jusqu'au montant obligatoire.",
+    "page": 129
+  },
+  {
+    "question": "Qui est présumé connaître les circonstances notoires selon l'art. 2408 C.c.Q. ?",
+    "answer": "L'assureur.",
+    "page": 118
+  },
+  {
+    "question": "Quel article prévoit le recours direct de la victime contre l'assureur ?",
+    "answer": "Article 2501 C.c.Q.",
+    "page": 143
+  },
+  {
+    "question": "Qu'est-ce que la prescription du recours subrogatoire ?",
+    "answer": "3 ans à compter du fait dommageable (pas du paiement).",
+    "page": 160
+  },
+  {
+    "question": "Quelle est la règle pour les biens disparus lors d'un incendie ?",
+    "answer": "Couverts sauf preuve de vol non assuré (art. 2485 al.1 in fine C.c.Q.).",
+    "page": 138
+  },
+  {
+    "question": "Qui peut demander la nullité pour absence d'intérêt d'assurance ?",
+    "answer": "L'assureur (art. 2484 C.c.Q.).",
+    "page": 123
+  },
+  {
+    "question": "Quel article régit les modifications par avenant ?",
+    "answer": "Article 2405 C.c.Q.",
+    "page": 116
+  },
+  {
+    "question": "Qu'est-ce que la règle de proportionnalité en pluralité d'assureurs ?",
+    "answer": "Contribution = (Montant assurance / Total assurances) × Perte.",
+    "page": 153
+  },
+  {
+    "question": "Quelle est la conséquence d'une faute simple de l'assuré ?",
+    "answer": "Couverture maintenue sauf exclusion expresse (art. 2464 al.1 C.c.Q.).",
+    "page": 126
+  },
+  {
+    "question": "Qui supporte le coût de la défense en responsabilité ?",
+    "answer": "L'assureur (au-delà du montant d'assurance).",
+    "page": 142
+  },
+  {
+    "question": "Quel article impose l'obligation de déclaration initiale du risque ?",
+    "answer": "Article 2408 C.c.Q.",
+    "page": 117
+  },
+  {
+    "question": "Qu'est-ce que l'ordre public relatif en assurance ?",
+    "answer": "Dispositions impératives au bénéfice de l'assuré (art. 2414 C.c.Q.).",
+    "page": 123
+  },
+  {
+    "question": "Quelle méthode calcule l'indemnité en sous-assurance ?",
+    "answer": "Indemnité = (Montant assurance / Valeur réelle) × Perte.",
+    "page": 154
+  },
+  {
+    "question": "Qui doit recevoir un exemplaire de l'avenant si modification demandée par écrit ?",
+    "answer": "Le preneur (art. 2405 al.2 C.c.Q.).",
+    "page": 116
+  },
+  {
+    "question": "Quel article prévoit l'attribution légale aux créanciers ?",
+    "answer": "Article 2497 C.c.Q.",
+    "page": 157
+  },
+  {
+    "question": "Qu'est-ce qu'un contrat à valeur indéterminée ?",
+    "answer": "Valeur déterminée après sinistre selon méthode convenue ou habitude.",
+    "page": 151
+  },
+  {
+    "question": "Quelle est la sanction pour non-paiement de prime ?",
+    "answer": "Résiliation après préavis (15 jours en général, 30 en auto).",
+    "page": 134
+  },
+  {
+    "question": "Qui doit consentir à la cession du contrat d'assurance ?",
+    "answer": "L'assureur (sauf décès, faillite ou cession entre coassurés).",
+    "page": 134
+  },
+  {
+    "question": "Quel article interdit la subrogation contre l'assuré ?",
+    "answer": "Principe implicite (art. 2474 C.c.Q. in fine).",
+    "page": 159
+  },
+  {
+    "question": "Qu'est-ce que l'exception de waiver en déclaration de sinistre ?",
+    "answer": "Renonciation implicite de l'assureur par son comportement.",
+    "page": 150
+  },
+  {
+    "question": "Quelle est la règle pour les biens à usage professionnel/personnel en sinistre ?",
+    "answer": "Couverture étendue sauf exclusion expresse (art. 2488 C.c.Q.).",
+    "page": 138
+  },
+  {
+    "question": "Qui est tenu de l'obligation de déclaration si preneur ≠ assuré ?",
+    "answer": "L'assuré si demandé par l'assureur (art. 2408 C.c.Q.).",
+    "page": 117
+  },
+  {
+    "question": "Quel article prévoit l'immunité pour les personnes de la maison ?",
+    "answer": "Article 2474 al.2 C.c.Q.",
+    "page": 158
+  },
+  {
+    "question": "Qu'est-ce que la contre-proposition en assurance ?",
+    "answer": "Acceptation modifiée constituant une nouvelle offre (art. 1393 C.c.Q.).",
+    "page": 116
+  },
+  {
+    "question": "Quelle est la limite à l'opposabilité des moyens de défense en responsabilité ?",
+    "answer": "Seuls les moyens antérieurs au sinistre sont opposables à la victime.",
+    "page": 144
+  },
+  {
+    "question": "Qui doit prouver le préjudice pour sanctionner un avis tardif de sinistre ?",
+    "answer": "L'assureur (ex: impossibilité d'enquêter).",
+    "page": 147
+  },
+  {
+    "question": "Quel article régit la durée des contrats provisoires ?",
+    "answer": "Généralement 30-60 jours (pratique, non codifié).",
+    "page": 114
+  },
+  {
+    "question": "Qu'est-ce que le droit de rétention des primes en cas de nullité ?",
+    "answer": "Obligation de remboursement par l'assureur (art. 1422 al.2 C.c.Q.).",
+    "page": 121
+  },
+  {
+    "question": "Quelle condition annule la protection de la clause hypothécaire ?",
+    "answer": "Absence de mandat pour assurer 'au nom et pour compte' du créancier.",
+    "page": 130
+  },
+  {
+    "question": "Qui est responsable de l'évaluation en contrat à valeur agréée ?",
+    "answer": "Les parties lors de la conclusion (valeur présumée exacte).",
+    "page": 151
+  },
+  {
+    "question": "Quel article prévoit la couverture des mesures de sauvetage ?",
+    "answer": "Article 2487 C.c.Q.",
+    "page": 138
+  },
+  {
+    "question": "Qu'est-ce que l'exception de notoriété en déclaration de risque ?",
+    "answer": "Circonstances connues/presumées connues de l'assureur (art. 2408 in fine C.c.Q.).",
+    "page": 118
+  },
+  {
+    "question": "Quelle règle s'applique aux résidences secondaires inoccupées ?",
+    "answer": "Non considérées comme aggravation de risque (art. 2468 C.c.Q.).",
+    "page": 131
+  },
+  {
+    "question": "Qui peut exercer le recours après paiement partiel par subrogation ?",
+    "answer": "La victime pour le solde non couvert.",
+    "page": 160
+  },
+  {
+    "question": "Quel article impose l'obligation de défense avant procès ?",
+    "answer": "Article 2503 C.c.Q. (inclut mise en demeure).",
+    "page": 142
+  },
+  {
+    "question": "Qu'est-ce que la réintégration des franchises en assurance collective ?",
+    "answer": "Non mentionné (hors champ du document).",
+    "page": null
+  },
+  {
+    "question": "Quelle est la sanction pour une proposition verbale non transcrite ?",
+    "answer": "Inopposable à l'assuré (art. 2403 C.c.Q.).",
+    "page": 120
+  },
+  {
+    "question": "Qui décide du mode d'indemnisation (argent ou réparation) ?",
+    "answer": "L'assureur si clause prévue (art. 2494 C.c.Q.).",
+    "page": 156
+  },
+  {
+    "question": "Quel article prévoit l'inopposabilité des divergences non signalées ?",
+    "answer": "Article 2400 al.2 C.c.Q.",
+    "page": 115
+  },
+  {
+    "question": "Quel organisme est chargé d'administrer le régime québécois d'encadrement du secteur financier?",
+    "answer": "Autorité des marchés financiers (l'Autorité).",
+    "page": 173
+  },
+  {
+    "question": "Quelle loi a constitué l'Autorité des marchés financiers?",
+    "answer": "Loi sur l'Autorité des marchés financiers (devenue Loi sur l'encadrement du secteur financier).",
+    "page": 173
+  },
+  {
+    "question": "Quelle est la mission principale de la Chambre de l'assurance de dommages (ChAD)?",
+    "answer": "Protéger le public en maintenant la discipline et en veillant à la formation continue et à la déontologie des représentants et experts en sinistre.",
+    "page": 175
+  },
+  {
+    "question": "Qui enquête sur les représentants en assurance de dommages pour la ChAD?",
+    "answer": "Le syndic.",
+    "page": 175
+  },
+  {
+    "question": "Quel organisme protège les assurés en cas d'insolvabilité d'une compagnie d'assurance?",
+    "answer": "Société d'indemnisation en matière d'assurances IARD (SIMA-IARD).",
+    "page": 177
+  },
+  {
+    "question": "Quel est le montant maximal d'indemnisation par réclamation du Fonds d'indemnisation des services financiers?",
+    "answer": "200 000 $.",
+    "page": 178
+  },
+  {
+    "question": "Quel organisme représente les assureurs de dommages au Canada?",
+    "answer": "Bureau d'assurance du Canada (BAC).",
+    "page": 178
+  },
+  {
+    "question": "Quel organisme fédéral réglemente les banques et sociétés d'assurance?",
+    "answer": "Bureau du surintendant des institutions financières (BSIF).",
+    "page": 179
+  },
+  {
+    "question": "Quelle directive commune ont publiée le CCRRA et les OCRA en 2018?",
+    "answer": "Conduite des activités d'assurance et traitement équitable des clients.",
+    "page": 180
+  },
+  {
+    "question": "Quels sont les deux organismes membres à la fois du CCRRA et des OCRA?",
+    "answer": "L'Autorité des marchés financiers et la ChAD.",
+    "page": 180
+  },
+  {
+    "question": "Quelle commission québécoise protège les renseignements personnels?",
+    "answer": "Commission d'accès à l'information du Québec (CAI).",
+    "page": 182
+  },
+  {
+    "question": "Quel organisme gère la Convention d'adhésion aux formulaires d'assurance habitation?",
+    "answer": "Bureau d'assurance du Canada (BAC).",
+    "page": 179
+  },
+  {
+    "question": "Quel est le rôle principal du Service de conciliation en assurance de dommages (SCAD)?",
+    "answer": "Trouver des solutions équitables pour les consommateurs et leurs assureurs.",
+    "page": 183
+  },
+  {
+    "question": "Qui préside le comité de discipline de la ChAD?",
+    "answer": "Un avocat.",
+    "page": 176
+  },
+  {
+    "question": "Combien de membres siègent au comité de discipline de la ChAD lors d'une audition?",
+    "answer": "Trois membres (un président et deux professionnels).",
+    "page": 176
+  },
+  {
+    "question": "Quelle est la mission du Groupement des assureurs automobiles (GAA)?",
+    "answer": "Participer au développement de l'assurance automobile au Québec et veiller aux intérêts des consommateurs.",
+    "page": 182
+  },
+  {
+    "question": "Quel organisme défend les intérêts des cabinets de courtage?",
+    "answer": "Regroupement des cabinets de courtage d'assurance du Québec (RCCAQ).",
+    "page": 183
+  },
+  {
+    "question": "Quels sont les deux catégories de disciplines en assurance de dommages selon la LDPSF?",
+    "answer": "Assurance de dommages des particuliers et Assurance de dommages des entreprises.",
+    "page": 175
+  },
+  {
+    "question": "Quel organisme traite les plaintes contre les représentants en assurance?",
+    "answer": "Autorité des marchés financiers.",
+    "page": 174
+  },
+  {
+    "question": "Quel est le délai pour déposer une réclamation au Fonds d'indemnisation?",
+    "answer": "Dans l'année suivant la connaissance de la fraude.",
+    "page": 178
+  },
+  {
+    "question": "Quel organisme coordonne la réglementation des produits financiers au Canada?",
+    "answer": "Forum conjoint des autorités de réglementation du marché financier.",
+    "page": 181
+  },
+  {
+    "question": "Quelle loi gère la Commission d'accès à l'information?",
+    "answer": "Loi sur l'accès aux documents des organismes publics et sur la protection des renseignements personnels.",
+    "page": 182
+  },
+  {
+    "question": "Qui inspecte les cabinets de moins de 25 représentants?",
+    "answer": "Chambre de l'assurance de dommages (ChAD).",
+    "page": 174
+  },
+  {
+    "question": "Quel organisme gère le Fonds d'indemnisation des services financiers?",
+    "answer": "Autorité des marchés financiers.",
+    "page": 177
+  },
+  {
+    "question": "Quelle réforme a introduit le projet de loi n°141?",
+    "answer": "Réforme des lois régissant le secteur financier et création du Comité consultatif des consommateurs.",
+    "page": 173
+  },
+  {
+    "question": "Quels sont les trois secteurs coordonnés par le Forum conjoint?",
+    "answer": "Régimes de retraite, valeurs mobilières et assurance.",
+    "page": 181
+  },
+  {
+    "question": "Quel organisme établit des normes pour les intermédiaires en assurance?",
+    "answer": "Organismes canadiens de réglementation en assurance (OCRA).",
+    "page": 181
+  },
+  {
+    "question": "Quelle est la principale fonction du comité de discipline?",
+    "answer": "Entendre les plaintes contre les membres de la ChAD et imposer des sanctions.",
+    "page": 176
+  },
+  {
+    "question": "Qui finance le programme de la SIMA-IARD?",
+    "answer": "Les sociétés membres (assureurs de dommages).",
+    "page": 177
+  },
+  {
+    "question": "Quels documents le syndic peut-il examiner lors d'une enquête?",
+    "answer": "Livres, registres, comptes, dossiers et documents pertinents.",
+    "page": 176
+  },
+  {
+    "question": "Quelle est la mission éducative du BAC?",
+    "answer": "Informer le public et élaborer des campagnes d'éducation.",
+    "page": 178
+  },
+  {
+    "question": "Quel organisme n'a PAS compétence sur les assureurs québécois?",
+    "answer": "Bureau du surintendant des institutions financières (BSIF).",
+    "page": 179
+  },
+  {
+    "question": "Quel article de la LDPSF institue la ChAD?",
+    "answer": "Article 284.",
+    "page": 175
+  },
+  {
+    "question": "Quelle protection offre la Directive du CCRRA/OCRA?",
+    "answer": "Traitement équitable des clients et information claire.",
+    "page": 180
+  },
+  {
+    "question": "Quand le SCAD a-t-il été établi?",
+    "answer": "2002.",
+    "page": 183
+  },
+  {
+    "question": "Quels sont les trois éléments requis pour une réclamation au Fonds d'indemnisation?",
+    "answer": "Écriture, exposition des faits, identification du responsable et montant.",
+    "page": 178
+  },
+  {
+    "question": "Quel organisme assiste les consommateurs via des services de règlement de différends?",
+    "answer": "Autorité des marchés financiers.",
+    "page": 173
+  },
+  {
+    "question": "Quelle est la fonction principale du GAA?",
+    "answer": "Garantir l'accès à l'assurance automobile et simplifier les règlements de sinistres.",
+    "page": 182
+  },
+  {
+    "question": "Qui peut prolonger le délai de réclamation au Fonds d'indemnisation?",
+    "answer": "L'Autorité des marchés financiers.",
+    "page": 178
+  },
+  {
+    "question": "Quels types d'assurance relèvent du SCAD?",
+    "answer": "Habitation, automobile et commerciale.",
+    "page": 183
+  },
+  {
+    "question": "Quel organisme publie des bulletins pour informer l'industrie?",
+    "answer": "Autorité des marchés financiers.",
+    "page": 174
+  },
+  {
+    "question": "Quelle loi régit la distribution de produits financiers au Québec?",
+    "answer": "Loi sur la distribution de produits et services financiers (LDPSF).",
+    "page": 171
+  },
+  {
+    "question": "Quel organisme gère les garanties minimales en assurance habitation?",
+    "answer": "Bureau d'assurance du Canada (BAC).",
+    "page": 179
+  },
+  {
+    "question": "Qui subroge les droits de la victime après indemnisation?",
+    "answer": "L'Autorité des marchés financiers.",
+    "page": 178
+  },
+  {
+    "question": "Quel est le motif le plus courant de plainte à la ChAD?",
+    "answer": "Défaut d'expliquer, d'informer et de conseiller adéquatement.",
+    "page": 176
+  },
+  {
+    "question": "Quel organisme traite les plaintes contre les assureurs?",
+    "answer": "Autorité des marchés financiers.",
+    "page": 187
+  },
+  {
+    "question": "Qui finance le BSIF?",
+    "answer": "Les institutions financières et régimes de retraite qu'il réglemente.",
+    "page": 179
+  },
+  {
+    "question": "Quelle section de la CAI traite les enquêtes?",
+    "answer": "Section de surveillance.",
+    "page": 182
+  },
+  {
+    "question": "Quand l'Autorité des marchés financiers a-t-elle été constituée?",
+    "answer": "1er février 2004.",
+    "page": 173
+  },
+  {
+    "question": "Quel organisme établit les règles de déontologie pour les experts en sinistre?",
+    "answer": "Chambre de l'assurance de dommages (ChAD).",
+    "page": 175
+  },
+  {
+    "question": "Quel recours existe contre une décision du comité de discipline?",
+    "answer": "Appel à la Cour du Québec.",
+    "page": 176
+  },
+  {
+    "question": "Quelle loi protège les dénonciateurs auprès de l'Autorité?",
+    "answer": "Projet de loi n°141.",
+    "page": 173
+  },
+  {
+    "question": "Qui sont les membres obligatoires de la SIMA-IARD?",
+    "answer": "Tous les assureurs de dommages au Canada (sauf exceptions).",
+    "page": 177
+  },
+  {
+    "question": "Quel organisme collige des statistiques sur l'assurance?",
+    "answer": "Bureau d'assurance du Canada (BAC).",
+    "page": 178
+  },
+  {
+    "question": "Quelle est la mission principale confiée à la ChAD?",
+    "answer": "Assurer la protection du public en matière d'expertise en règlement de sinistres.",
+    "page": 275
+  },
+  {
+    "question": "Où un particulier peut-il porter plainte contre un expert en sinistre?",
+    "answer": "Auprčs de la ChAD ou de l'Autorité des marchés financiers selon le cas.",
+    "page": 275
+  },
+  {
+    "question": "Qui est chargé d'enquęter sur les plaintes contre les experts?",
+    "answer": "Le syndic de la ChAD.",
+    "page": 275
+  },
+  {
+    "question": "Que risque un expert reconnu coupable par le comité de discipline?",
+    "answer": "Sanctions allant de la réprimande ŕ la radiation, avec amendes possibles.",
+    "page": 276
+  },
+  {
+    "question": "Combien de sections comporte le Code de déontologie?",
+    "answer": "Huit sections.",
+    "page": 276
+  },
+  {
+    "question": "Selon l'article 3 du Code, ŕ qui un expert ne peut-il pas verser de rémunération?",
+    "answer": "Ŕ une personne sans certification de représentant.",
+    "page": 277
+  },
+  {
+    "question": "Qu'est-ce qu'un conflit d'intéręts selon l'article 9?",
+    "answer": "Situation oů les intéręts personnels pourraient affecter le jugement ou la loyauté envers le mandat.",
+    "page": 278
+  },
+  {
+    "question": "Quelles qualités un expert doit-il montrer dans sa conduite selon l'article 15?",
+    "answer": "Dignité, discrétion, objectivité et modération.",
+    "page": 279
+  },
+  {
+    "question": "Quelle information cruciale doit ętre communiquée ŕ l'assuré selon l'article 18?",
+    "answer": "L'arrivée prochaine d'une date de prescription.",
+    "page": 280
+  },
+  {
+    "question": "Que doit protéger l'expert selon les articles 22-24?",
+    "answer": "La confidentialité des renseignements personnels.",
+    "page": 280
+  },
+  {
+    "question": "Que doit faire un expert avant d'accepter un mandat selon l'article 26?",
+    "answer": "S'assurer d'avoir les compétences requises ou le soutien nécessaire.",
+    "page": 281
+  },
+  {
+    "question": "Un expert peut-il représenter ŕ la fois l'assureur et l'assuré?",
+    "answer": "Non, selon l'article 28.",
+    "page": 282
+  },
+  {
+    "question": "Que doit faire l'expert s'il découvre des informations compromettantes?",
+    "answer": "Aviser promptement le mandant (article 31).",
+    "page": 282
+  },
+  {
+    "question": "Quels facteurs doivent ętre considérés pour fixer la rémunération selon l'article 39?",
+    "answer": "Expérience, temps consacré, difficulté, importance, responsabilité, services exceptionnels, résultat.",
+    "page": 283
+  },
+  {
+    "question": "Quand un expert peut-il demander une avance sur honoraires?",
+    "answer": "Seulement dans des cas exceptionnels.",
+    "page": 283
+  },
+  {
+    "question": "Que ne peut pas faire un expert avec les biens du sinistré selon l'article 44?",
+    "answer": "Les retenir sans autorisation légale.",
+    "page": 283
+  },
+  {
+    "question": "Que doit faire l'expert avec les biens qui lui sont confiés selon l'article 45?",
+    "answer": "Leur apporter un soin raisonnable et ne pas s'en départir sans approbation.",
+    "page": 283
+  },
+  {
+    "question": "Que doit vérifier l'expert concernant les biens sinistrés selon l'article 47?",
+    "answer": "Les droits de propriété ou de créance sur les biens.",
+    "page": 284
+  },
+  {
+    "question": "Que ne doit pas faire un expert envers d'autres représentants selon l'article 50?",
+    "answer": "Les dénigrer, dévaloriser ou discréditer.",
+    "page": 284
+  },
+  {
+    "question": "Quelle obligation a l'expert envers le syndic selon l'article 54?",
+    "answer": "Répondre rapidement ŕ toute correspondance.",
+    "page": 286
+  },
+  {
+    "question": "Que ne doit pas faire l'expert lors d'une enquęte selon l'article 56?",
+    "answer": "Entraver le travail des enquęteurs ou dissimuler des faits/documents.",
+    "page": 287
+  },
+  {
+    "question": "Quel est le principal manquement selon l'article 58(1°)?",
+    "answer": "Exercer ses activités de façon malhonnęte ou négligente.",
+    "page": 288
+  },
+  {
+    "question": "Que ne doit pas conseiller un expert selon l'article 58(11°)?",
+    "answer": "Un acte illégal ou frauduleux.",
+    "page": 289
+  },
+  {
+    "question": "Quelle est la sanction pour appropriation de fonds selon l'article 58(16°)?",
+    "answer": "Radiation temporaire au minimum.",
+    "page": 290
+  },
+  {
+    "question": "Quel article interdit de rémunérer des non-représentants?",
+    "answer": "Article 3.",
+    "page": 277
+  },
+  {
+    "question": "Quel article traite des conflits d'intéręts?",
+    "answer": "Article 9.",
+    "page": 278
+  },
+  {
+    "question": "Quel article exige d'identifier son mandant sur place?",
+    "answer": "Article 17.",
+    "page": 280
+  },
+  {
+    "question": "Quel article oblige ŕ informer sur les dates de prescription?",
+    "answer": "Article 18.",
+    "page": 280
+  },
+  {
+    "question": "Quel article impose la confidentialité des données?",
+    "answer": "Article 22.",
+    "page": 280
+  },
+  {
+    "question": "Quel article interdit la double représentation?",
+    "answer": "Article 28.",
+    "page": 282
+  },
+  {
+    "question": "Quel article régit la rémunération?",
+    "answer": "Article 39.",
+    "page": 283
+  },
+  {
+    "question": "Quel article interdit de retenir les biens du sinistré?",
+    "answer": "Article 44.",
+    "page": 283
+  },
+  {
+    "question": "Quel article oblige ŕ vérifier les droits de propriété?",
+    "answer": "Article 47.",
+    "page": 284
+  },
+  {
+    "question": "Quel article interdit les plaintes malicieuses?",
+    "answer": "Article 53.",
+    "page": 286
+  },
+  {
+    "question": "Quel article exige de collaborer avec le syndic?",
+    "answer": "Article 56.",
+    "page": 287
+  },
+  {
+    "question": "Que signifie 'moyen dolosif'?",
+    "answer": "Tromperie visant ŕ amener une personne ŕ poser un acte qui lui est défavorable.",
+    "page": 283
+  },
+  {
+    "question": "Qu'est-ce qu'un 'décoursé'?",
+    "answer": "Dépenses engagées par le professionnel pour le dossier.",
+    "page": 283
+  },
+  {
+    "question": "Quelle loi encadre l'utilisation des renseignements personnels?",
+    "answer": "LDPSF (articles 92-93).",
+    "page": 280
+  },
+  {
+    "question": "Que doit faire l'expert en cas d'erreur?",
+    "answer": "Aviser le mandant et son assureur de responsabilité professionnelle (article 38).",
+    "page": 283
+  },
+  {
+    "question": "Que doit contenir une facture horaire?",
+    "answer": "Détail du temps consacré ŕ chaque acte et modalités de paiement.",
+    "page": 284
+  },
+  {
+    "question": "Quand un expert peut-il cesser un mandat?",
+    "answer": "Avec motif juste et raisonnable aprčs avoir évité tout préjudice (article 36).",
+    "page": 282
+  },
+  {
+    "question": "Que doit faire l'expert en cas d'empęchement?",
+    "answer": "Informer le mandant, l'assuré et la partie adverse (article 58(12°)).",
+    "page": 289
+  },
+  {
+    "question": "Que ne peut pas faire l'expert avec les preuves?",
+    "answer": "Les retenir, dérober, receler, falsifier, mutiler ou détruire (article 58(8°)).",
+    "page": 289
+  },
+  {
+    "question": "Qu'est-il interdit de faire avec un témoin?",
+    "answer": "Le payer pour une fausse déclaration (article 58(7°)).",
+    "page": 289
+  },
+  {
+    "question": "Quelle attitude doit avoir l'expert dans sa clientčle?",
+    "answer": "Sollicitation modérée et digne, sans pression (article 58(13°)).",
+    "page": 289
+  },
+  {
+    "question": "Que doit faire l'expert avec les avances reçues?",
+    "answer": "Les conserver dans un compte séparé et rembourser les sommes non utilisées.",
+    "page": 283
+  },
+  {
+    "question": "Quelle est la durée de validité d'un certificat de représentant délivré par l'Autorité ?",
+    "answer": "1 an.",
+    "page": 6
+  },
+  {
+    "question": "Quel est le montant minimal de couverture par réclamation pour l'assurance responsabilité professionnelle d'un représentant ?",
+    "answer": "500 000 $.",
+    "page": 24
+  },
+  {
+    "question": "Pendant combien d'années les dossiers clients doivent-ils être conservés après le dernier événement pertinent ?",
+    "answer": "5 ans.",
+    "page": 18
+  },
+  {
+    "question": "Quand le Règlement sur les modes alternatifs de distribution (RMAD) est-il entré en vigueur ?",
+    "answer": "13 juin 2019.",
+    "page": 26
+  },
+  {
+    "question": "Dans quel délai après l'expiration du certificat un renouvellement peut-il encore être accepté ?",
+    "answer": "30 jours.",
+    "page": 6
+  },
+  {
+    "question": "Quel est le seuil financier pour qu'un vol soit considéré comme un acte criminel plutôt qu'une infraction sommaire ?",
+    "answer": "5 000 $.",
+    "page": 30
+  },
+  {
+    "question": "Quand les cabinets doivent-ils transmettre leurs déclarations annuelles à l'Autorité après réception de la demande ?",
+    "answer": "45 jours.",
+    "page": 9
+  },
+  {
+    "question": "Quel montant minimal de couverture annuelle est requis pour un cabinet avec plus de 3 représentants ?",
+    "answer": "2 000 000 $.",
+    "page": 24
+  },
+  {
+    "question": "Combien de temps les renseignements sur le compte séparé doivent-ils être conservés ?",
+    "answer": "5 ans après la dernière inscription.",
+    "page": 18
+  },
+  {
+    "question": "Quel est le montant minimal d'amende pour certaines infractions spécifiques à la LDPSF ?",
+    "answer": "5 000 $.",
+    "page": 28
+  },
+  {
+    "question": "Dans quel délai un cabinet doit-il transmettre un avis de consignation d'une plainte au plaignant ?",
+    "answer": "10 jours.",
+    "page": 22
+  },
+  {
+    "question": "Quelle est la durée de validité de l'inscription d'un représentant autonome ?",
+    "answer": "Jusqu'à sa radiation.",
+    "page": 9
+  },
+  {
+    "question": "Quel est le montant minimal d'amende pour une personne physique selon l'article 485 LDPSF ?",
+    "answer": "2 000 $.",
+    "page": 28
+  },
+  {
+    "question": "Quelle est la durée minimale de conservation des pièces justificatives des dossiers clients ?",
+    "answer": "5 ans.",
+    "page": 18
+  },
+  {
+    "question": "Quel montant d'amende maximale peut être imposée à un assureur pour infraction à la LDPSF ?",
+    "answer": "200 000 $.",
+    "page": 28
+  },
+  {
+    "question": "Quel montant maximum de couverture pour la dépollution était prévu dans l'exemple de Carl ?",
+    "answer": "10 000 $.",
+    "page": 15
+  },
+  {
+    "question": "Combien de jours d'absence étaient réels dans l'exemple de fraude de Donald ?",
+    "answer": "Plus de 7 jours.",
+    "page": 16
+  },
+  {
+    "question": "Quel article interdit d'emprunter de l'argent à un assuré ?",
+    "answer": "Article 46.",
+    "page": 11
+  },
+  {
+    "question": "Quelle amende pourrait être imposée pour appropriation de fonds ?",
+    "answer": "Non précisée (varie selon gravité).",
+    "page": 17
+  }
+]
