@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <!-- [Le reste du head reste identique] -->
+</head>
+<body>
+    <div class="quiz-container" id="quiz-app">
+        <div id="root">Chargement en cours...</div>
+    </div>
+
+    <script>
+        // État de l'application
+        let appState = {
+            currentQuestion: 0,
+            userAnswers: {},
+            showResults: false,
+            selectedOption: '',
+            selectedOptions: [],
+            showAnswer: false,
+            answerRevealed: {},
+            selfEvaluation: {},
+            showRetryOption: false,
+            retryMode: false,
+            incorrectQuestions: [],
+            questions: [],
+            quizSettings: {
+                questionCount: 25,
+                questionTypes: {
+                    simple: true,
+                    multiple_choice: true,
+                    true_false: true,
+                    multi_select: true
+                }
+            },
+            inSetup: true
+        };
+
+        // Charger les questions depuis le fichier JSON
+        async function loadQuestions() {
+            try {
+                const response = await fetch('questions.json');
+                if (!response.ok) {
+                    throw new Error('Erreur de chargement des questions');
+                }
+                const allQuestions = await response.json();
+                
+                // Fonction pour démarrer le quiz (identique à avant)
+                function startQuiz() {
+                    // Filtrer les questions selon les types sélectionnés
+                    let filteredQuestions = allQuestions.filter(q => appState.quizSettings.questionTypes[q.type]);
+                    
+                    // Mélanger les questions et en sélectionner le nombre demandé
+                    appState.questions = shuffleArray(filteredQuestions).slice(0, appState.quizSettings.questionCount);
+                    
+                    // Réinitialiser l'état du quiz
+                    appState.currentQuestion = 0;
+                    appState.userAnswers = {};
+                    appState.showResults = false;
+                    appState.selectedOption = '';
+                    appState.selectedOptions = [];
+                    appState.showAnswer = false;
+                    appState.answerRevealed = {};
+                    appState.selfEvaluation = {};
+                    appState.showRetryOption = false;
+                    appState.retryMode = false;
+                    appState.incorrectQuestions = [];
+                    appState.inSetup = false;
+                    
+                    renderQuiz();
+                }
+
+                // [Toutes les autres fonctions restent identiques...]
+                // Assurez-vous d'utiliser startQuiz() après avoir chargé les questions
+
+                // Initialisation après chargement
+                renderQuiz();
+                
+            } catch (error) {
+                console.error('Erreur:', error);
+                document.getElementById('root').innerHTML = `
+                    <div class="error-message">
+                        <h2>Erreur de chargement</h2>
+                        <p>Impossible de charger les questions. Veuillez réessayer.</p>
+                        <p>${error.message}</p>
+                    </div>
+                `;
+            }
+        }
+
+        // Appeler loadQuestions au chargement de la page
+        document.addEventListener('DOMContentLoaded', loadQuestions);
+    </script>
+</body>
+</html>
